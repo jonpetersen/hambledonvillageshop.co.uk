@@ -1,7 +1,10 @@
 {{ define "main" }}
-<center><h1>Hambledon Village Shop</h1>
 
-<h3>Delivery Service</h3></center>
+<center><img src="{{.Params.image}}" width="50%" height="50%"></center>
+
+<!-- <center><h1>{{.Title}}</h1> -->
+
+<center><h2>Delivery Service</h2></center>
 
 <p>We are only operating a delivery service at this time. Please follow the instructions below and do
 not come to the shop. The delivery service operates within a 2-mile radius of the shop on Monday, Wednesday,
@@ -37,7 +40,8 @@ appreciate your business and messages of support</li>
 
 <p>More information about the shop can be found at the <a href="{{ "http://hambledonsurrey.co.uk" | relURL }}">Hambledon Village web site</a></p>
 
-<center><h3>Post Office</h3></center>
+<center><h2>Post Office</h2></center>
 Currently, imited services are available from the Post Office at the shop between 9:30am and 12:30pm on Wednesdays and Fridays only.
 
+</br>
 {{ end }}
