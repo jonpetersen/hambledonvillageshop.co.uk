@@ -20,13 +20,13 @@ body {
   justify-content: center;
   text-align: center;
 */
-  background-color: #282c34;
+  background-color: #407738;
   color: white;
   padding: 32px 32px 32px 32px;
 }
 
 a {
-  color: pink;
+  color: #bfc7ff;
   text-decoration: none;
 }
 
@@ -44,4 +44,9 @@ li {
   text-align: left;
   align-items: left;
   padding: 0px 0px 0px 32px;
+}
+
+h2 {
+  color: #b1c4a6;
+  text-decoration: none;
 }
